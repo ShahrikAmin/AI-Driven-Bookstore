@@ -53,10 +53,9 @@ This project aims to deliver a complete bookstore experience with dynamic invent
 - Spring Security-based login system.
 - Role-based access (user vs admin) and session management.
 
-### 🔁 CI/CD & Automated Testing
-- GitHub Actions for build, test, and deploy automation.
-- JUnit and Mockito tests for backend services.
-- Postman API regression test integration.
+### 🔁 CI/CD & Testing
+- CI pipelines configured with GitHub Actions for automatic build and deploy.
+- Unit and integration tests implemented for core service layers.
 
 ### 🛠 Bug Fixes and Improvements
 - Search functionality refinements.
@@ -67,12 +66,12 @@ This project aims to deliver a complete bookstore experience with dynamic invent
 
 ## 🧰 Tech Stack
 
-| Layer         | Tech                                                  |
-|---------------|-------------------------------------------------------|
-| **Backend**   | Java, Spring Boot, Spring Security, Spring AI         |
-| **Database**  | PostgreSQL                                            |
-| **DevOps**    | GitHub Actions, Azure App Services                    |
-| **Testing**   | JUnit, Mockito, Postman, CI-integrated regression tests |
+| Layer         | Technology                                             |
+|---------------|--------------------------------------------------------|
+| **Backend**   | Java, Spring Boot, Spring Security, Spring AI          |
+| **Database**  | PostgreSQL                                              |
+| **DevOps**    | GitHub Actions, Azure App Services                      |
+| **Testing**   | JUnit (unit + integration tests)                        |
 
 ---
 
