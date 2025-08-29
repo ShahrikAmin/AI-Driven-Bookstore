@@ -6,42 +6,73 @@ Database Schema:
 ![Database_Schema](https://github.com/user-attachments/assets/533e6ed3-3d65-458f-9765-cb2a7caaa7df)
 
 
-# Bookstore Application - Milestone 3: Final Sprint Plan
+# 📚 AI-Driven Bookstore Application
 
-## Overview
-This README outlines the goals, scope, and implementation plan for Milestone 3 of our project, for the Final Demo scheduled for December 6th. As of Milestone 2, the alpha release shows some features. It is functional but incomplete. For this final sprint, we look to improve the existing functionality, implement the remaining features, and showcase a better and usable application.
+An intelligent, full-stack bookstore application with integrated AI-powered recommendations, inventory and cart management, and secure authentication — built using Java Spring Boot and deployed with CI/CD on Azure.
 
-## Goals for Milestone 3
+---
 
-1. **Final Feature Implementation**
-   - Complete all features to make the product both usable and useful.
-   - Focus on features that improve the app's value and correspond with its use case.
+## 🔍 Overview
 
-2. **System Stability**
-   - Resolve any bugs or performance issues identified during the alpha release.
-   - Conduct proper testing to ensure the system is stable and reliable.
+This project aims to deliver a complete bookstore experience with dynamic inventory handling, shopping cart workflows, user login and authorization, and AI-enhanced book suggestions. The final sprint focuses on completing outstanding features, improving performance and reliability, and deploying a demo-ready version of the platform.
 
-3. **Final Demo Readiness**
-   - Prepare a demo showing the key use cases and features of the product.
+---
 
-## Scope of the Final Product
+## 🎯 Sprint Goals
 
-Based on the timeline and team capacity, the following features will be included in the final release:
+### ✅ Final Feature Implementation
+- Implement all core features to ensure a smooth and valuable user experience.
+- Prioritize features based on usability and business impact.
 
-1. **Shopping Cart**
-   - Allows users to add books to the cart and proceed to checkout/purchase books.
+### ✅ System Stability & Testing
+- Identify and resolve bugs from prior releases.
+- Perform regression, integration, and end-to-end testing.
+- Ensure consistent behavior across modules (cart, inventory, auth, AI).
 
-2. **Better Test Cases**
-   - Create more comprehensive unit and integration tests.
-   - Integrate tests with our GitHub CI actions for continuous testing.
+### ✅ Deployment & Demo Readiness
+- Finalize the system for a clean demo presentation.
+- Enable seamless deployment via GitHub Actions and Azure integration.
 
-3. **Bug Fixes and Improvements**
-   - Fix any issues with functionality such as:
-     - Searching for books.
-     - Adding, editing, and removing books.
-     - Displaying stock in the inventory.
+---
 
-4. **Improved Spring AI Implementation**
-   - Enhance the Spring AI integration with the app.
-   - Add additional functionalities to better align with the application’s purpose.
+## 📦 Final Feature Scope
+
+### 🛒 Shopping Cart
+- Add, remove, and update book quantities.
+- Checkout workflow integrated with inventory and user sessions.
+
+### 📚 Inventory Management
+- Admin panel to add, edit, and delete books.
+- Live stock updates upon user transactions.
+
+### 🤖 AI Recommendation Engine
+- Integrated Spring AI module to suggest books based on user prompts or behavior.
+- AI responses refine user browsing experience and book discovery.
+
+### 🔐 User Authentication
+- Spring Security-based login system.
+- Role-based access (user vs admin) and session management.
+
+### 🔁 CI/CD & Automated Testing
+- GitHub Actions for build, test, and deploy automation.
+- JUnit and Mockito tests for backend services.
+- Postman API regression test integration.
+
+### 🛠 Bug Fixes and Improvements
+- Search functionality refinements.
+- Fixes for book edit/delete issues.
+- Improved API responses and error handling.
+
+---
+
+## 🧰 Tech Stack
+
+| Layer         | Tech                                                  |
+|---------------|-------------------------------------------------------|
+| **Backend**   | Java, Spring Boot, Spring Security, Spring AI         |
+| **Database**  | PostgreSQL                                            |
+| **DevOps**    | GitHub Actions, Azure App Services                    |
+| **Testing**   | JUnit, Mockito, Postman, CI-integrated regression tests |
+
+---
 
